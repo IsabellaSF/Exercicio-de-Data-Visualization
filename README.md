@@ -1,2 +1,25 @@
-# Exercicio-de-Data-Visualization
-Este notebook apresenta uma análise exploratória de dados (EDA) focada na evolução da pandemia de COVID-19, transformando dados brutos em insights visuais compreensíveis. O projeto aborda desde o tratamento inicial das séries temporais até a criação de gráficos comparativos para identificar tendências globais e regionais.
+# 📊 Visualização de Dados: Impacto da COVID-19
+
+Este repositório contém um notebook Python dedicado à análise exploratória e visualização de dados sobre a pandemia de COVID-19[cite: 1, 2]. O objetivo é transformar datasets brutos em representações visuais claras, permitindo a identificação de padrões, picos epidemiológicos e correlações geográficas[cite: 1, 2].
+
+## 🛠️ Tecnologias e Bibliotecas
+
+O projeto foi desenvolvido utilizando as principais ferramentas da stack de Data Science em Python[cite: 1, 2]:
+
+* **Pandas:** Manipulação, limpeza e estruturação dos dados (DataFrames)[cite: 1, 2].
+* **NumPy:** Operações matemáticas e processamento de arrays[cite: 1, 2].
+* **Matplotlib:** Criação de gráficos fundamentais e personalização de layouts[cite: 1, 2].
+* **Seaborn:** Visualizações estatísticas avançadas e design estético aprimorado[cite: 1, 2].
+
+## 📈 Funcionalidades do Notebook
+
+1. **Tratamento de Dados:** Limpeza de registros nulos e formatação de séries temporais[cite: 1, 2].
+2. **Análise de Tendências:** Gráficos de linha demonstrando a evolução de casos e óbitos[cite: 1, 2].
+3. **Comparativo Regional:** Visualização da distribuição da doença entre diferentes países ou estados[cite: 1, 2].
+4. **Mapas de Calor:** Identificação de períodos de maior intensidade de contágio[cite: 1, 2].
+
+## 🚀 Como utilizar
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
