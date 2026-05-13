@@ -1,6 +1,6 @@
 # 📊 Visualização de Dados: Impacto da COVID-19
 
-Este repositório contém um notebook Python dedicado à análise exploratória e visualização de dados sobre a pandemia de COVID-19[cite: 1, 2]. O objetivo é transformar datasets brutos em representações visuais claras, permitindo a identificação de padrões, picos epidemiológicos e correlações geográficas[cite: 1, 2].
+Este repositório contém um notebook derivado de um exercicio da plataforma Kaggle em linguagem python dedicado à análise exploratória e visualização de dados sobre a pandemia de COVID-19[cite: 1, 2]. O objetivo é transformar datasets brutos em representações visuais claras, permitindo a identificação de padrões, picos epidemiológicos e correlações geográficas[cite: 1, 2].
 
 ## 🛠️ Tecnologias e Bibliotecas
 
@@ -18,8 +18,17 @@ O projeto foi desenvolvido utilizando as principais ferramentas da stack de Data
 3. **Comparativo Regional:** Visualização da distribuição da doença entre diferentes países ou estados[cite: 1, 2].
 4. **Mapas de Calor:** Identificação de períodos de maior intensidade de contágio[cite: 1, 2].
 
-## 🚀 Como utilizar
+### Resultado
+   * Foram gerados quatro gráficos para análise dos dados provenientes do dataset.
+     ## Line Chart: Relação entre óbitos por região
+     ![gráfico de linha descrevendo a relação de óbitos por região](charts/5.1linechartdeathsbyregion.png)
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+     ## Bar Charts: Descrição dos óbitos por continente
+     ![grafico em barras descrevendo a relação de óbitos por continente](charts/barcharts-deathsbycontinent.png)
+
+     ## Scatter Plot: Relação entre tamanho da população e óbitos por milhão
+     ![grafico discreto descrevendo a relação entre tamanho da população e óbitos por milhão](charts/scatterplots.png)
+     
+     ## Heatmap de correlação: Recurso visual aplicando a correlação de pearson entre os atributos
+     ![grafico Heatmap descrevendo a correlação entre entre os atributos](charts/heatmapcorrelação.png)
+
